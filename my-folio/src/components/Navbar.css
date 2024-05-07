@@ -1,0 +1,32 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: rgb(10, 25, 47); /* Change this to your desired background color */
+  border-bottom: 1px solid #dddddd; /* Add a border if needed */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust the font size */
+  font-weight: bold; /* Make it bold */
+  color: rgb(204, 214, 246); /* Change the color */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem; /* Adjust the font size */
+  color: rgb(204, 214, 246); /* Change the color */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #007bff; /* Change the color on hover/focus */
+}
+
+.navbar-toggler-icon {
+  background-color: #333333; /* Change the color of the toggler icon */
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-top: 10px; /* Adjust the top margin for small screens */
+  }
+}

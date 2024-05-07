@@ -1,0 +1,11 @@
+.footer {
+    padding: 20px 0; /* Add padding as needed */
+    background-color: #f8f9fa; /* Change the background color */
+    color: #6c757d; /* Change the text color */
+    border-top: 1px solid #dddddd; /* Add a border */
+  }
+  
+  .footer p {
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+  
