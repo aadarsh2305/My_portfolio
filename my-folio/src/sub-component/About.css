@@ -1,10 +1,11 @@
 .middle-container2 {
     text-align: left; /* Align content to the left */
-    margin: 50px auto; /* Center align content horizontally with top margin */
+    margin: 550px auto; /* Center align content horizontally with top margin */
     padding: 0 20px; /* Add padding to the sides */
     max-width: 800px; /* Limit width to improve readability */
     font-family: 'Arial';
     color: rgb(136, 146, 176); /* Set default text color */
+    display: flex;
   }
   
   .middle-container2 h2 {
@@ -12,8 +13,8 @@
     font-size: 1.2rem;
   }
   
-  .middle-container2 about{
-    
+  .about {
+    color: rgb(255, 255, 255);
   }
   
   .middle-container2 section {
@@ -25,3 +26,53 @@
     line-height: 1.6; /* Set line height for better readability */
   }
   
+  .grid_column{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+  }
+
+  .list_data{
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console";
+    font-size: 13px;
+    color: rgb(100, 255, 218);
+  }
+
+  .list_data::before{
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: rgb(100, 255, 218);
+    font-size: 14px;
+    line-height: 12px;
+  }
+
+  .about_styled_pic{
+    position: relative;
+    width: 40%;
+    max-width: 300px;
+    margin-left: 60px;
+  }
+
+  .styled_avatar{
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    width: 100%;
+    position: relative;
+    border-radius: 3px;
+    background-color: rgb(204, 214, 246);
+    margin-left: -20px;
+  }
+  
+  .image-wrapper{
+    mix-blend-mode: multiply;
+    filter: grayscale(100%) contrast(1);
+    border-radius: 3px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }

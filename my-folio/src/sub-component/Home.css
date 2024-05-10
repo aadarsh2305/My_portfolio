@@ -37,5 +37,6 @@
   }
   
   .get-in-touch-btn:hover {
+    color: black;
     background-color: #4cc895; /* Change background color on hover */
   }
